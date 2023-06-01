@@ -1,0 +1,67 @@
+@font-face {
+    font-family: DS-DIGIB;
+    src: url(DS-DIGIB.TTF);
+}
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  background-image: url(img.png);
+  height: 65vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 85px;
+  font-family: DS-DIGIB;
+}
+.stopwatch{
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: #ffffff;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.8);
+}
+
+.stopwatch h1 {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.buttons img:hover {
+    color: #24262b;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transform: scale(1.04);
+}
+
+
+.buttons img:nth-last-child(2){
+    width: 80px;
+  }
+ 
+
+
+
